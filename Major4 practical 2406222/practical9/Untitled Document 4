@@ -1,0 +1,24 @@
+#include <iostream>
+#include <set>
+
+using namespace std;
+
+int main()
+{
+    int i;
+    set<int>arr;
+    for(i=10;i<21;i++)
+      arr.insert(i);
+      
+      cout<<"Set before operation: \n";
+      for(int i:arr)
+        cout<<" "<<i;
+    cout<<endl;
+    
+    arr.erase(arr.begin());
+    
+    cout<<"\nSet after operation: \n";
+    for(int i:arr)
+       cout<<" "<<i;
+    cout<<endl;
+}

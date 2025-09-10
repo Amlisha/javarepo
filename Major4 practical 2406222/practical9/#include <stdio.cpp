@@ -1,0 +1,42 @@
+#include <iostream>
+#include <set>
+
+using namespace std;
+
+int main()
+{
+    set<int> num={1,2,3,4,5};
+    for(int i:num) 
+        cout<<" "<<1;
+    cout<<endl;
+
+    num.insert(10);
+    for(int i:num)
+        cout<<" "<<i;
+    cout<<endl;
+
+    num.erase(1);
+    for(int i:num)
+        cout<<" "<<i;
+    cout<<endl;
+
+    set<char> alpha={'a','b','c'};
+for(char i:alpha)
+
+
+set<string> alpha={"hello","world"};
+for(string i:s)
+        cout<<" "<<1;
+    cout<<endl;
+
+    s.erase("hello");
+    for(string i:s);
+        cout<<" "<<1;
+    cout<<endl;
+
+    s.clear();
+    int a=s.size();
+    if(a==0)
+        cout<<" The string s empty";
+    return 0;
+}
